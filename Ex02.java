@@ -43,7 +43,7 @@ public class Ex02 {
 	        if (quantidade >= 3) {
 	            desconto = total * 0.10;
 	            total = total - desconto;
-	            System.out.printf("Você ganhou 10%% de desconto!\n");
+	            System.out.printf("Você ganhou 10%% de desconto\n");
 	        }
 
 	        System.out.printf("O valor final é: R$ " + total);
