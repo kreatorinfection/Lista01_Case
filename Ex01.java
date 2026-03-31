@@ -39,7 +39,7 @@ public class Ex01 {
 	        }
 
 	        total = preco * quantidade;
-	        System.out.printf("O valor total é: R$ %.2f%n", total);
+	        System.out.printf("O valor total é: R$ ", total);
 	        sc.close();
 	    }
 	}
